@@ -1,0 +1,75 @@
+#principal {
+    background-color:#fefefe;
+    width:800px;
+    height:400px;
+    border:1px solid #3495ED;
+    border-radius:10px;
+    margin:auto;
+
+
+
+}
+
+#intro {
+    margin:20px;
+    padding:15px;
+    background-color:;
+
+}
+
+#image {
+    width: 150px;
+    display: inline-block;
+}
+
+#texte {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 50px;
+    font-family: "calibri";
+}
+
+
+#contact {
+    background-color: lightsteelblue;
+}
+
+#rs {
+    
+    margin:auto;
+    text-align:center;
+}
+
+
+
+
+
+
+.mail {
+    display: inline-block;
+}
+
+.tel {
+    display: inline-block;
+
+}
+
+
+.linkedin{
+    margin-right:120px;
+    display: inline-block;
+}
+
+.github{
+    margin-right:120px;
+    display: inline-block;
+
+}
+
+.facebook{
+
+    margin-right:120px;
+    display: inline-block;
+}

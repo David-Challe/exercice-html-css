@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="keny.css">
+    <link rel="stylesheet" href="keny2.css">
+    <meta charset="UTF-8">
+    <title>kenny sous les bombes</title>
+</head>
+<body>
+
+<div id="logo">
+    <h1 class="sp-kenny-txt">kenny sous les bombes</h1>
+</div>
+<div id="viewport">
+    <!-- Image kenny -->
+    <div id="kenny" style="top: 200px; left: 50px"></div>
+    <div id="kenny-timer">0:00:00</div>
+
+    <!--screen-->
+    <div class="screen screen-default toggle" id="kenny-start-game">
+        <span id="btn-start-game" class="btn">Jouer</span>
+    </div>
+
+    <!-- Classement -->
+    <div class="screen" id="kenny-leaderboard-screen">
+        <ol>
+            <li><span>Chargement...</span></li>
+        </ol>
+    </div>
+
+    <!-- Screen Game Over -->
+    <div class="screen screen-default" id="kenny-setscore-screen">
+        <div>
+            <h2>Kenny is dead</h2>
+            <span>kenny est en vie...</span><span id="kenny-score-survive"></span>
+
+            <p>
+                <label>Entre ton nom</label>
+                <input type="text" id="player-name" value="" maxlength="9" autofocus>
+            </p>
+
+            <div id="input-display-player-name">
+            </div>
+            <span id="btn-score-send" class="btn">Envoyer</span>
+            <span id="btn-replay" class="btn">Rejouer</span>
+        </div>
+    </div>
+
+</div>
+<!-- Classement -->
+<div class="controls">
+    <span id="btn-leaderboard" class="btn">Classement</span>
+</div>
+<!-- Lien Fichier JS -->
+<script src="script.js"></script>
+
+</body>
+</html>

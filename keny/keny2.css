@@ -1,0 +1,360 @@
+
+
+ol, body, html {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: none;
+    -moz-tap-highlight-color: none;
+    tap-highlight-color: none;
+}
+
+#viewport
+{
+    position: relative;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+    border: 5px solid;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 1.2em;
+    border-color: #fd9800;
+    min-width: 500px;
+    max-width: 900px;
+}
+
+#kenny
+{
+    background: url("smile.png");
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#kenny-timer
+{
+    border: 3px solid #fd9000;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-left-radius: 0.8em;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 8px;
+    background: rgb(253, 144, 0);
+    color: rgba(255,255,255,0.7);
+    font-weight: bold;
+    font-size: 17px;
+    font-family: arial;
+    padding-bottom: 8px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+#buttons
+{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bomb
+{
+    background: url("img/bomb/spritesheet.png");
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-position: -1px -1px;
+    background-repeat: no-repeat;
+
+}
+
+.bomb-animation
+{
+    -webkit-animation: bomb-play 1s steps(11);
+    -moz-animation: bomb-play 1s steps(11);
+    -o-animation: bomb-play 1s steps(11);
+    animation: bomb-play 1s steps(11);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bomb-play {
+    100% { background-position: -715px; }
+}
+
+@-webkit-keyframes bomb-play {
+    100% { background-position: -715px; }
+}
+
+@-moz-keyframes bomb-play {
+    100% { background-position: -715px; }
+}
+
+
+.screen
+{
+    transform: translate3d(-9999px,0,0);
+    height: 100%;
+}
+
+.screen.toggle
+{
+  transform : translate3d(0,0,0);
+}
+
+/* Screen position */
+#kenny-leaderboard-screen
+{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 70%;
+    width: 280px;
+    background: #fefefe;
+    border: 5px solid;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 1.2em;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-color: #fd9000;
+    z-index: 3;
+    overflow-y: auto;
+}
+
+
+
+
+.screen-default {
+    position: absolute;
+    width: 100%;
+    border-radius: 1.2em;
+    background: white;
+    z-index: 2;
+    border: 5px solid white;
+    text-align: center;
+}
+
+#kenny-setscore-screen > div
+{
+
+    background: #7c3f00;
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+    margin-top: 5%;
+    border-radius: 2em;
+    box-shadow: 1px 0px 2px black, 0px -1px 2px black;
+    border: 2px solid #3e1c00;
+    color: #fefefe;
+    font-family: verdana;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
+
+#kenny-setscore-screen > p
+{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+#player-name
+{
+
+    z-index: 2;
+    width: 100%;
+    height: 88px;
+    background: transparent;
+    border: 0;
+    color: transparent;
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: dotted;
+
+}
+
+#input-display-player-name
+{
+    position: relative;
+    top: -80px;
+    color: #fd9000;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+
+}
+
+
+
+
+#input-display-player-name > span {
+    background: #fefefe;
+    border-radius: 0.7em;
+    display: inline-block;
+    border: 2px solid rgba(0,0,0,0.4);
+    text-align: center;
+    margin-right: 20px;
+    padding: 7px;
+    min-width: 15px;
+    min-height: 20px;
+}
+
+label
+{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.controls
+{
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    text-align: right;
+    margin-top: 5px;
+    min-width: 500px;
+    max-width: 900px;
+}
+
+/* Buttons */
+
+
+
+.btn
+{
+    background: #f28d02;
+    border-radius: 0.5em;
+    padding: 5px;
+    margin-right: 11px;
+    border: 1px solid #f09000;
+    margin-top: 5px;
+    margin-bottom: -2px;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+.btn:hover
+{
+    background: rgba(244,150,0,0.9);
+}
+
+#btn-leaderboard
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#btn-score-send
+{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    position: relative;
+    top: -20px;
+}
+
+#btn-start-game
+{
+    display: inline-block;
+    margin: auto;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100px;
+}
+
+/* Logo */
+
+#logo {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 55px;
+}
+
+/* Fonts */
+
+.sp-kenny-txt
+{
+    font-family: "South Park:)Smilie version";
+    color: #ffca00;
+    font-weight: bold;
+    text-shadow: 3px 1px 5px #000, -2px -2px 0px #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    line-height: 15px;
+}
+
+@font-face {
+    font-family: 'South Park :)Smilie version';
+    font-style: normal;
+    font-weight: normal;
+    src: local('South Park :)Smilie version'), url('fonts/south park.woff') format('woff');
+}
+
+
+/* Classement */
+
+ol{
+    list-style: none;
+    color: #8F6405;
+    counter-reset: ldb-counter;
+}
+
+ol li {
+    text-align: left;
+    white-space: nowrap;
+    text-indent: 1em;
+    counter-increment: ldb-counter;
+    line-height: 50px;
+}
+
+ol li:nth-child(2n) {
+    background: rgba(255, 146, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+ol li::before {
+    content: counter(ldb-counter) "";
+    color: #fefefe;
+    font-weight: bold;
+    background: #D48E00;;
+    border-radius: 1em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+#kenny-leaderboard-screen span {
+    display: inline-block;
+    max-width: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+    overflow: hidden;
+}

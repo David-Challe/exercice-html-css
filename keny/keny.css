@@ -1,0 +1,68 @@
+
+
+ol, body, html {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: none;
+    -moz-tap-highlight-color: none;
+    tap-highlight-color: none;
+}
+
+
+#viewport
+{
+    position: relative;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    border: 5px solid;
+    overflow: hidden;
+    margin-top: 30px;
+    border-radius: 1.2em;
+    border-color: #fd9800;
+    min-width: 500px;
+    max-width: 900px;
+
+}
+
+#kenny
+{
+    background: url("smile.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-size: 100% 100%;
+}
+
+.bomb-animation
+{
+
+    -webkit-animation: bomb-play 1s steps(11);
+    -moz-animation: bomb-play 1s steps(11);
+    -o-animation: bomb-play 1s steps(11);
+    animation: bomb-play 1s steps(11);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes bomb-play {
+    100% { background-position: -715px; }
+}
+
+.screen{
+    transform: translate3d(-999px,0,0);
+    height: 100%;
+}
+
+.screen.toogle{
+    transform: translate3d(0,0,0);
+}
+

@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgba(169, 169, 169, 0.71);
+    font-family: "Adventure Subtitles";
+    color: rgba(0, 0, 0, 0.94);
+    font-size:1em;
+
+}
+
+
+#principal {
+    position:relative;
+    background-color:#fefefe;
+    width:800px;
+    height:400px;
+    border:1px solid #3495ED;
+    border-radius:10px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:200px;
+
+
+
+
+}
+
+#intro {
+    position:relative
+    margin:20px;
+    padding:15px;
+
+
+
+
+}
+
+
+#texte{
+
+    width:550px;
+    height: 250px;
+
+    float:right;
+    vertical-align: top;
+
+}
+
+
+#image{
+    position:relative;
+    width:180px;
+    height: 250px;
+
+    float:left;
+    vertical-align: top;
+
+
+}
+
+#contact {
+    margin-right:50px;
+
+    text-align:center;
+}
+
+#rs {
+
+    margin:auto;
+    text-align:center;
+}
+
+/*
+
+.image {
+    display: inline-block;
+}
+
+.texte {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 50px;
+
+}
+
+
+*/
+
+.mail {
+    display: inline-block;
+}
+
+.tel {
+    display: inline-block;
+
+}
+
+
+.linkedin{
+    margin-right:120px;
+    display: inline-block;
+}
+
+.github{
+    margin-right:120px;
+    display: inline-block;
+
+}
+
+.facebook{
+
+    margin-right:120px;
+    display: inline-block;
+}
+

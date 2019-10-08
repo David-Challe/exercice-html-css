@@ -1,13 +1,14 @@
 #simon{
     position: absolute;
-    width:60px;
-    height:100px;
-    left:300px;
-    top:20px;
+    width:100px;
+    height:90px;
+    left:285px;
+    top:15px;
     background-color: rgba(52, 149, 237, 0.51);
     border-radius:10px;
     z-index:999;
     text-align:center;
+
 }
 
 #bureau{
@@ -29,7 +30,7 @@
     margin-left:50px;
     border:2px solid black;
     text-align:center;
-    text-decoration:underline;
+
 }
 
 #table2{
@@ -108,6 +109,8 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
+
 }
 
 #b{
@@ -119,6 +122,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #c{
@@ -130,6 +134,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #d{
@@ -141,6 +146,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #e{
@@ -152,6 +158,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #f{
@@ -163,6 +170,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #g{
@@ -174,6 +182,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #h{
@@ -185,6 +194,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #i{
@@ -196,6 +206,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #j{
@@ -207,6 +218,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #k{
@@ -218,6 +230,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #l{
@@ -229,6 +242,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #m{
@@ -240,6 +254,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #n{
@@ -251,6 +266,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #o{
@@ -262,6 +278,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #p{
@@ -273,6 +290,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #q{
@@ -284,6 +302,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #r{
@@ -295,6 +314,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #s{
@@ -306,6 +326,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #t{
@@ -317,6 +338,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #u{
@@ -328,6 +350,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #v{
@@ -339,6 +362,7 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #w{
@@ -350,6 +374,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 #x{
@@ -361,6 +386,7 @@
     background-color: rgba(52, 149, 237, 0.5);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
 
@@ -373,5 +399,16 @@
     background-color: rgba(52, 149, 237, 0.51);
     z-index:999;
     border-radius:10px;
+    text-decoration:underline;
 }
 
+.nom{
+    font-family: "Comic Sans MS";
+}
+
+.simon {
+    font-family: "7 days";
+    font-size:0.7em;
+
+
+}

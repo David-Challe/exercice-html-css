@@ -1,0 +1,285 @@
+body {
+    font-family:Calibri;
+    font-size:1em;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+#menu{
+    position:fixed;
+    width:90px;
+    top:160px;
+    left:0px;
+    background-color: #e8b955;
+    text-align:center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#logo{
+    position:absolute;
+    width:180px;
+    height:220px;
+    top:50px;
+    left:350px;
+ }
+
+
+#rs{
+    position:absolute;
+    width:100px;
+    height:220px;
+    top:50px;
+    left:1346px;
+    border:2px solid #014b51;
+    border-radius:15px;
+    background-color: fefefe;
+    z-index:999;
+}
+
+
+
+#page{
+    width: 70%;
+    background-color: #fefefe;
+    border:2px solid #014b51;
+    border-radius:15px;
+    margin:auto ;
+    margin-top:30px;
+
+
+}
+
+#header {
+    width:100%;
+    height:230px;
+
+    /*background-image: url("http://www.davidchalle.com/images/cv/header.png");
+    background-color: #59a1a8;*/
+}
+
+#texte-header{
+    width:70%;
+    height:230px;
+
+    margin-left:330px;
+    position:relative;
+
+    margin-top:0px;
+    margin-bottom:100px;
+
+}
+
+#h1{
+    position:relative;
+    margin-left:60px;
+    margin-top:25px;
+
+
+}
+
+#h2{
+    position:relative;
+    margin-top:25px;
+    margin-left:280px;
+
+}
+
+
+#experience-pro{
+    border-bottom: 1px solid #59a1a8;
+    border-top: 1px solid #59a1a8;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#titre-experience-pro{
+    font-family: "Turret Road";
+    font-size:1.2em;
+    padding:5px 5px 5px 25px;
+    background-color: #59a1a8;
+    margin-top:1px;
+    border-left: 1px solid #014b51;
+    border-right: 1px solid #014b51;
+    border-bottom: 1px solid #014b51;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+#contenu-experience-pro {
+    margin:50px 0px 40px 0px;
+  }
+
+#competence {
+    border-bottom: 1px solid #59a1a8;
+    padding-left:50px;
+    padding-right:50px;
+
+  }
+
+#titre-competence{
+    font-family: "Turret Road";
+    font-size:1.2em;
+    padding:5px 5px 5px 25px;
+    background-color: #59a1a8;
+    margin-top:1px;
+    border-left: 1px solid #014b51;
+    border-right: 1px solid #014b51;
+    border-bottom: 1px solid #014b51;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#contenu-competence{
+    margin:30px 0px 40px 0px;
+    line-height: 2.5;
+
+}
+
+
+ul {
+    list-style-image : url(http://www.davidchalle.com/images/cv/puce.png);
+}
+
+
+#grid {
+    width: 300px;
+    display: grid;
+    grid-template-areas: "a a";
+    grid-gap: 50px;
+    grid-auto-columns: 300px;
+}
+
+
+
+
+#formation{
+    border-bottom: 1px solid #59a1a8;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#titre-formation {
+    font-family: "Turret Road";
+    font-size:1.2em;
+    padding:5px 5px 5px 25px;
+    background-color: #59a1a8;
+    border-left: 1px solid #014b51;
+    border-right: 1px solid #014b51;
+    border-bottom: 1px solid #014b51;
+    margin-top:1px;
+
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+#contenu-formation{
+    margin:50px 0px 40px 0px;
+}
+
+#portfolio{
+    border-bottom: 1px solid #59a1a8;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#titre-portfolio {
+    font-family: "Turret Road";
+    font-size:1.2em;
+    padding:5px 5px 5px 25px;
+    background-color: #59a1a8;
+    margin-top:1px;
+    border-left: 1px solid #014b51;
+    border-right: 1px solid #014b51;
+    border-bottom: 1px solid #014b51;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#contenu-portfoio {
+    margin:50px 0px 40px 0px;
+}
+
+#contact {
+    border-bottom: 1px solid #59a1a8;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+#titre-contact {
+    font-family: "Turret Road";
+    font-size:1.2em;
+    padding:5px 5px 5px 25px;
+    background-color: #59a1a8;
+    margin-top:1px;
+    border-left: 1px solid #014b51;
+    border-right: 1px solid #014b51;
+    border-bottom: 1px solid #014b51;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#contenu-contact{
+    width: 400px;
+    display: grid;
+    grid-template-areas: "a a";
+    grid-gap: 50px;
+    grid-auto-columns: 400px;
+    margin:50px 0px 40px 50px;
+
+}
+
+
+#lien-contact{
+    line-height:5;
+    border:1px solid #014b51;
+    border-radius:15px;
+    padding:13px;
+}
+
+
+#formulaire{
+    border:1px solid #014b51;
+    border-radius:15px;
+    padding:13px;
+}
+
+.linkedin{
+
+}
+
+.github {
+
+}
+
+.facebook {
+
+}
+
+.logo{
+    margin-left:30px;
+}
+
+.contact{
+  /* display: inline-block;
+    color:#ac1d16;*/
+}
+
+.competence{
+    dispaly: inline-block;
+}
+
+.h1-header{
+    font-family: "Caveat";
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+
+.h2-header {
+    font-family:"Dosis";
+    color: rgba(162, 19, 11, 0.7);
+    font-size:2em;
+
+}
+

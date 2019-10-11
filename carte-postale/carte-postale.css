@@ -1,0 +1,98 @@
+body {
+    background-color: burlywood;
+}
+
+#page{
+    width:720px;
+    height:410px;
+    background-color: #fefefe;
+    margin:auto;
+    margin-top:100px;
+    padding: 20px 0
+}
+
+#message{
+    width:319px;
+    height:250px;
+    float:left;
+
+    padding: 0px 50px  0px  20px;
+    margin-top:90px;
+    line-height: 1.5em;
+}
+
+#coordonnées {
+    width:330px;
+    height:390px;
+    display:inline-block;
+
+    border-left: 1px solid black;
+}
+
+#timbre {
+    position:relative;
+    width:80px;
+    height:120px;
+
+    margin-left:230px;
+    border:1px solid black;
+}
+
+#ligne  {
+    position:relative;
+    margin-top:115px;
+
+
+}
+
+#ligne1  {
+    position:relative;
+    border-bottom:1px solid black;
+    width:85%;
+    height:35px;
+    margin-left: 25px;
+
+}
+
+#ligne2  {
+    position:relative;
+    border-bottom:1px solid black;
+    width:85%;
+    height:35px;
+    margin-left: 25px;
+
+}
+
+#ligne3  {
+    position:relative;
+    border-bottom:1px solid black;
+    width:85%;
+    height:35px;
+    margin-left: 25px;
+    margin-bottom:10px;
+}
+
+#ligne4  {
+    position:relative;
+    border-bottom:1px solid black;
+    width:180px;
+    height:35px;
+
+    display:inline-block;
+
+}
+
+#carre-1 {
+    width:400px;
+    height:35px;
+    margin-left:20px;
+}
+
+.carre {
+    width:12px;
+    height:20px;
+    border:1px solid black;
+    margin:3px ;
+    display:inline-block;
+}
+

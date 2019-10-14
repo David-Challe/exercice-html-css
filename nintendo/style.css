@@ -1,0 +1,206 @@
+header
+{
+    width:100%;
+    height:90px;
+
+
+
+}
+
+
+
+
+#logo {
+    width:165px;
+    height:90px;
+    background:#e60012;
+    border-radius: 0 0 15px 15px;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:15px;
+    z-index:999;
+
+
+}
+
+#logo:hover{
+    width:165px;
+    height:90px;
+    background:#e60012;
+    border-radius: 0 0 15px 15px;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:15px;
+    animation-name:monAnimation;
+    animation-duration:0.3s;
+    animation-fill-mode:forwards;
+   /* animation-iteration-count:1;*/
+}
+
+@keyframes monAnimation
+{
+    0% {height:90px;}
+    /*50%{width:500px; background: #ff3aed;transform:rotate(-360deg);border-radius:3em;}*/
+    100%{height:110px;}
+
+}
+
+
+
+#texte-logo{
+    width:165px;
+    height:90px;
+    text-align: center;
+    font-size:1.5em;
+    color:#ffffff;
+    margin-top:30px;
+
+
+}
+
+
+#texte-logo:hover{
+    width:165px;
+    height:90px;
+    text-align: center;
+    font-size:1.5em;
+    color:#ffffff;
+    margin-top:30px;
+    animation-name:monAnimationLogo;
+    animation-duration:0.3s;
+    animation-fill-mode:forwards;
+}
+
+
+@keyframes monAnimationLogo
+{
+    0% {margin-top:30px;}
+    /*50%{width:500px; background: #ff3aed;transform:rotate(-360deg);border-radius:3em;}*/
+    100%{margin-top:50px;}
+
+}
+
+
+
+
+
+
+ul li
+{
+    display:inline-block;
+    padding-top:6px;
+
+}
+
+.texte-logo{
+    border:3px solid #ffffff;
+    border-radius:30px;
+    padding:8px;
+}
+
+
+nav{
+    position:relative;
+    width:100%;
+    height:35px;
+    margin-top:40px;
+
+    background: linear-gradient(to bottom, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+}
+
+
+
+
+
+.switch {
+    margin-left:180px;
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+.switch:hover{
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+.ds{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+.ds:hover{
+    background: #ce181e;
+}
+
+.game-store{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+.game-store:hover{
+    background: #ff7d00;
+}
+
+.amiibo{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+.amiibo:hover{
+    background: #ffffff;
+}
+.play{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+.play:hover{
+    background: #ff3f3f;
+}
+
+.support{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+.support:hover{
+    background: #00bff3;
+}
+
+
+.my{
+
+    height:29px;
+    padding-right:40px;
+    padding-left:40px;
+}
+
+
+
+.my:hover{
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.83);
+
+}
+
+a{
+    color: rgba(0, 0, 0, 0.83);
+    text-decoration:none;
+}
+
+a:hover{
+    color:#ffffff;
+
+}

@@ -1,0 +1,253 @@
+body
+{
+    width:100%;
+    margin:0;
+    padding:0;
+    background:#e4e4e4;
+    font-family: sans-serif;
+}
+
+img
+{
+    width:80%;
+    height: auto;
+
+}
+
+#hamburger-menu
+{
+    display:none;
+}
+
+#main
+{
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    width:80%;
+    border:8px solid #cfcfcf;
+    background:#ffffff;
+    min-height:600px;
+}
+
+#contenu
+{
+    float:left;
+    width:60%;
+    height:600px;
+
+    background: #4ea9ff;
+
+}
+
+#sidebar
+{
+    float:left;
+    width:40%;
+    height:600px;
+    background: dodgerblue;
+    animation:fondu 15s ease-in-out infinite both;
+}
+
+
+@keyframes fondu {
+    0% {background-image:url("http://www.davidchalle.com/exercices/eval-font/zen.jpg");}
+    33.33% {background-image:url("http://www.davidchalle.com/exercices/eval-font/pin.jpg");}
+    66.66% {background-image:url("http://www.davidchalle.com/exercices/eval-font/plage.jpg");}
+    100% {background-image:url("http://www.davidchalle.com/exercices/eval-font/vague.jpg");}
+
+}
+
+
+
+#name
+{
+    float:left;
+    width:66.6%;
+    height:33.3%;
+    background: #35bc7a;
+}
+
+
+#profil
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    background: #f86925;
+    text-align:center;
+}
+
+#profil:after
+ {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+
+#experience
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    background: #1e8bc4;
+    text-align:center;
+}
+
+#education
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    background: #f15a49;
+    text-align:center;
+}
+
+#blog
+ {
+     float:left;
+     width:33.3%;
+     height:33.3%;
+     background: #35bc7a;
+    text-align:center;
+ }
+
+#social-menu
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    text-align:center;
+}
+
+#contact
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    background: #1e8bc4;
+    text-align:center;
+}
+
+#portfolio
+{
+    float:left;
+    width:33.3%;
+    height:33.3%;
+    background: #f86925;
+    text-align:center;
+}
+
+
+.icone
+{
+    margin-top:30%;
+    color:#ffffff;
+    font-size:3em;
+
+}
+
+.texte
+{
+    display:block;
+    margin-top:0;
+    font-size:0.25em;
+}
+
+.bradley
+{
+    color:#ffffff;
+    margin:40px 0 0 20px;
+    font-size:1.2em;
+    font-weight: bold;
+}
+
+.description
+{
+    color:#ffffff;
+    margin:10px 50px 0 20px;
+    font-size:0.8em;
+
+}
+
+.resume
+{
+    display:inline-block;
+    color:#ffffff;
+    margin:15px 20px 0 20px;
+    padding:10px;
+    border:2px solid #ffffff;
+    font-size:0.7em;
+}
+
+.icontact
+{
+    display:inline-block;
+    color:#ffffff;
+    margin:15px 50px 0 0;
+    padding:10px;
+    border:2px solid #ffffff;
+    font-size:0.7em;
+}
+
+a:link
+{
+    text-decoration:none;
+}
+
+/*Media query pour les smartphones*/
+@media (max-width:812px)
+{
+
+    img {
+        width:80%;
+        height: auto;
+    }
+
+#hamburger-menu {
+
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    z-index:999;
+    width: 50px;
+    height: 150px%;
+    padding: 8px;
+    background: #e4e4e4;
+    border: 2px solid #cfcfcf;
+}
+
+    .menu {
+
+
+        color: #000000;
+        font-size: 1em;
+        background: #f86925;
+    }
+
+    .icone-mobile
+    {
+        color:#ffffff;
+        font-size:2em;
+        margin-left: 10px;
+        padding-top: 8px;
+    }
+
+    #contenu
+    {
+        display:none;
+    }
+
+    #sidebar
+    {
+        float:left;
+        width:100%;
+        margin:auto;
+
+    }
+
+
+
+}
